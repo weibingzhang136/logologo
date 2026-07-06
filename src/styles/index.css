@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --color-deep-space: #1A1A2E;
+  --color-aurora-blue: #2A5CFF;
+  --color-warm-white: #F5F5F5;
+}
+
+body {
+  font-family: "Source Han Sans SC", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background-color: var(--color-warm-white);
+  color: var(--color-deep-space);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
